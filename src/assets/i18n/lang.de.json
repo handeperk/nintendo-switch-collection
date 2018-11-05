@@ -1,0 +1,39 @@
+{
+  "Pages": {
+    "Dashboard": {
+      "Title": "Home",
+      "Headline": "Nintendo Switch Collection",
+      "welcomeText": "Hier können Sie Ihre Einkaufslisten erstellen und bearbeiten:"
+    },
+    "Collection": {
+      "Title": "Einkaufslisten",
+      "Headline": "Willkommen in Einkaufen"
+    },
+    "CollectionList": {
+      "Title": "Einkaufsliste"
+    }
+  },
+  "error404": "404 Error",
+  "angularCollectionListsApp": "Nintendo Switch Collection",
+  "collectionLists": "Einkaufslisten",
+  "collectionListCreated": "Einkaufsliste ist erstellt",
+  "saved": "Gespeichert",
+  "collectionListRemoved": "Einkaufsliste ist gelöscht",
+  "collectionListDefault": "Es ist eine Standard-Einkaufsliste, Sie können sie nicht löschen",
+  "createCollectionList": "Einkaufsliste erstellen",
+  "removeCollectionList": "Einkaufsliste löschen",
+  "areYouSure": "Sind Sie sicher?",
+  "name": "Name",
+  "create": "Erstellen",
+  "yes": "Ja",
+  "no": "Nein",
+  "availableProducts": "Verfügbare Produkte",
+  "addToCollectionList": "Zur Einkaufsliste hinzufügen",
+  "productSearch": "Produktsuche",
+  "productAdded": "Das Produkt wurde hinzugefügt",
+  "productCanNotAdded": "Das Produkt kann nicht wie bereits hinzugefügt hinzugefügt werden",
+  "productRemovedFromCollectionList": "Das Produkt wurde entfernt",
+  "removeFromCollectionList": "Aus der Einkaufsliste entfernen",
+  "collectionListName": "Nintendo Switch Collection name",
+  "save": "Speichern"
+}

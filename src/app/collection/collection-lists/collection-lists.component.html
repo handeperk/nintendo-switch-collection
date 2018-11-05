@@ -1,0 +1,45 @@
+<div class="left-col">
+  <h2 class="section-title">{{ 'collectionLists' | translate }}</h2>
+  <div>
+    <mat-progress-spinner *ngIf="!collectionLists"
+                          class="progress-spinner"
+                          [color]="'primary'"
+                          [mode]="'indeterminate'">
+    </mat-progress-spinner>
+    <mat-list>
+      <mat-list-item class="shopping-list-item" *ngFor="let collectionList of collectionLists">
+        <img class="cp"
+             (click)="seeCollectionListDetails(collectionList);" mat-list-avatar
+             src="assets/images/collection-lists/collectionBag.png">
+        <h3 mat-line class="cp" (click)="seeCollectionListDetails(collectionList);"> {{collectionList.name}} </h3>
+        <div class="sl-actions">
+          <mat-icon class="remove-icon"
+                    (click)="remove(collectionList);">
+            delete
+          </mat-icon>
+          <mat-icon class="edit-icon"
+                    (click)="seeCollectionListDetails(collectionList);">
+            edit
+          </mat-icon>
+        </div>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
+<div class="right-col">
+  <h2 class="section-title">{{ 'createCollectionList' | translate }}</h2>
+  <div>
+    <form [formGroup]="newCollectionListForm" #form="ngForm" (ngSubmit)="createNewCollectionList(newCollectionListForm.value)">
+      <mat-input-container class="input-container">
+        <input matInput type="text"
+               placeholder="{{'name' | translate}}"
+               formControlName="name">
+      </mat-input-container>
+
+      <button mat-raised-button type="submit" [disabled]="!newCollectionListForm.valid">
+        {{'create' | translate}}
+      </button>
+    </form>
+  </div>
+</div>
+<div class="clear"></div>

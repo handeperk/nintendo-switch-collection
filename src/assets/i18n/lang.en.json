@@ -1,0 +1,39 @@
+{
+  "Pages": {
+    "Dashboard": {
+      "Title": "Home",
+      "Headline": "Nintendo Switch Collection",
+      "welcomeText": "Here you can select and buy nintendo games from list.Your collection is: "
+    },
+    "Collection": {
+      "Title": "Nintendo Switch Collection",
+      "Headline": "Welcome to Nintendo Switch Collection"
+    },
+    "CollectionList": {
+      "Title": "Nintendo Collection"
+    }
+  },
+  "error404": "404 Error",
+  "angularCollectionListsApp": "Nintendo Switch Collection",
+  "collectionLists": "Nintendo Switch Collection",
+  "collectionListCreated": "Nintendo Switch Collection is created",
+  "saved": "Saved",
+  "collectionListRemoved": "Nintendo Switch Collection is removed",
+  "collectionListDefault": "It's a default collection, you cannot delete it",
+  "createCollectionList": "Create collection",
+  "removeCollectionList": "Remove collection",
+  "areYouSure": "Are you sure?",
+  "name": "Name",
+  "create": "Create",
+  "yes": "Yes",
+  "no": "No",
+  "availableProducts": "Available products",
+  "addToCollectionList": "Add to collection",
+  "productSearch": "Search products",
+  "productAdded": "The product is added",
+  "productCanNotAdded": "The product can not be added as it has already",
+  "productRemovedFromCollectionList": "The product is removed",
+  "removeFromCollectionList": "Remove from collection",
+  "collectionListName": "Nintendo Switch Collection name",
+  "save": "Save"
+}
